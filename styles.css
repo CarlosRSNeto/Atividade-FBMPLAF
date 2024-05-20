@@ -5,7 +5,6 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -17,4 +16,43 @@ h1 {
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
+}
+
+.red-div {
+    background-color: red;
+    width: 700px;
+    padding: 0;
+    margin: 0 auto;
+    height: 100px; 
+}
+
+.green-div {
+    background-color: green;
+    width: 700px;
+    padding: 25px;
+    margin: 20px auto;
+    height: 100px;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
 }
