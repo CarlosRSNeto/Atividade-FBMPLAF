@@ -18,6 +18,15 @@ h1 {
     font-family: Arial, sans-serif;
 }
 
+h2 {
+    background-color: green;
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
 .red-div {
     background-color: red;
     width: 700px;
@@ -55,4 +64,33 @@ a {
 
 div {
     text-align: center;
+}
+
+img {
+    width: 370px;
+    padding: 0px;
+}
+
+#divSapatos{
+    width: 370px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
 }
